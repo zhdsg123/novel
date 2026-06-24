@@ -1,0 +1,25 @@
+# API 密钥（绝对不能提交）
+.env
+
+# Chroma 向量数据库
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# 系统文件
+.DS_Store
+Thumbs.db
